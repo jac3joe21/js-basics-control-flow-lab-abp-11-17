@@ -10,16 +10,16 @@ function scuberGreetingForFeet (feet) {
 }
 
 function ternaryCheckCity (city) {
-  return city === 'Yonkers' ? 'Ok, sounds good.' : 'No go.';
+  return city === 'Yonkers' ? 'Ok, sounds great.' : 'No can do amigo!';
 }
 
 function switchOnCharmFromTip (tip) {
   switch (tip) {
     case 'generous':
-      return 'Thank you so much.';
+      return 'Thank you kindly. It has been a pleasure.';
     case 'not as generous':
-      return 'Thank you.';
+      return 'Well, that was unexpected!.';
     default:
-      return 'Bye.';
+      return 'Adios.';
   }
 }
